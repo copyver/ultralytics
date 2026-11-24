@@ -1,0 +1,12 @@
+# Ultralytics 🚀 AGPL-3.0 License - https://ultralytics.com/license
+
+task: semantic
+mode: train
+model: /picassox/intelligent-cpfs/beauty/lhy9/modelzoo/yolo26x-sem-ade20k.pt
+data: /picassox/oss-picassox-train-release/beauty/lhy9/dataset/hair-seg-dataset/dataset.yaml
+project: /picassox/oss-picassox-train-release/beauty/lhy9/experiments/hair-sem-seg
+name: yolo26x_sem_ade20k
+
+# Ultralytics semantic training example: https://docs.ultralytics.com/tasks/semantic/#train
+epochs: 100
+imgsz: 1024
